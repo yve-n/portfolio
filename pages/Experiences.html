@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Bonjour mon portfolio</title>
+    <link rel="icon" type="image/png" href="./asset/icon.png">
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" 
+    crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+  <header>
+  <nav class="navbar">
+    <input type="checkbox" id="check">
+  <label for="check" class="checkbtn">
+    <i class="fas fa-bars"></i>
+  </label>
+    <label class="logo"><a href="#" title="logo">nyc</a></label>
+    <ul>
+        <li><a href="../index.html" title="home">Accueil</a></li>
+        <li class="active"><a href="#" title="Experiences">Experiences</a></li>
+        <li><a href="projets.html" title="projets">projets</a></li>
+        <li><a href="veille.html" title="veille">veille</a></li>
+        <li><a href="contact.html" title="contact">contact</a></li>
+    </ul>
+</nav>
+</header>
+<div class="content">
+  <section class="jumbotron">
+      <div class="container">
+          <h1 class="jumbotron-heading nom animated slideInLeft delay-1s"> NGUETCHE YVE CARELLE </h1><br/>
+          <h1 class="jumbotron-heading titre animated slideInRight delay-1s"> Portfolio BTS SIO SLAM </h1><br/>
+          <h1 class="jumbotron-heading phrase"> Bienvenue sur mon portfolio !<br>Partager mon expérience <span> | </span> </h1>
+      </div>
+  </section>
+</div>
+<main>
+  <section class="exp">
+    <ol class="list-exp">
+      <li><a href="#stage1">stage de première année</a></li>
+      <li><a href="#stage2">stage de deuxième</a></li>
+    </ol>
+  </section>
+  <section class="exp1">
+    <h2 id="stage1" class="bookmark"> Mon stage de première année</h2>
+    <p>
+      j'ai éffectué mon stage du 27/05/2019 au 05/07/2019
+       au sein de la société DeboMarquage sis à Boulogne-Billancourt.J'ai au cours de ce stage 
+       principalement utilisé le logiciel Illustrator et appris des techniques de marquage.
+    </p>
+        <section class="debo">
+            <figure class="fig">
+             <img src="../asset/impression.png"
+              alt="impression directe">
+             <figcaption>impression directe</figcaption>
+            </figure>
+             <figure class="fig">
+              <img src="../asset/sublimation.png"
+              alt="sublimation">
+              <figcaption>sublimation</figcaption>
+            </figure>
+            <figure class="fig">
+             <img src="../asset/kiko.png"
+             alt="flocage">
+             <figcaption>flocage</figcaption>
+            </figure>
+        </section> 
+    <!-- <ul class="debo">
+      <li>
+        <img src="../asset/impression.png" alt="impression directe" id="img1">
+        <img src="../asset/sublimation.png" alt="sublimation" id="img2">
+        <img src="../asset/kiko.png" alt="flocage" id="img3">
+      </li>
+    </ul> -->
+    <p>Pour consulter entièrement mon rapport de stage cliquez <a href="../docs/yve.pdf" title="rapport" target="blank">ici</a></p>
+  </section>
+  <section class="exp2">
+    <h2 id="stage2" class="bookmark">Ma deuxième année de stage</h2>
+    <p>
+      Mon deuxième stage s'est déroulé du 12/11/2019 au 13/12/2019
+       au sein de CONFLEDIS SAS(Consulting and Flexible Digital Solution) où j'ai occupé le poste de developpeuse web.
+       Nous avons travailé en équipe sur un projet nommé Alorestoo.</hr>
+       Alorestoo est une plateforme developpée sous Angular de reservation de restaurant en ligne et de livraison de plats cuisinés accessible 
+       par un site web et une application mobile.Pour réaliser ce projet nous nous sommes servis de nombreux outils tels que:
+       <ul class="outils">
+         <li>Microsoft Teams: outil de travail collaboratif</li>
+         <li>Git</li>
+         <li>Nodejs</li>
+         <li>SourceTree</li>
+         <li>Trello</li>
+         <li>Bitbucket</li>
+         <li>Dropbox</li>
+       </ul>
+       j'ai travaillé sur la partie front de l'apllication notamment en me servant MDB Angular(Material Design Bootstrap for Angular),
+       sur l'intégration d'api notamment l'api google places.Voici quelques images du travail éffectué
+    </p>
+        <ul class="images">
+          <li><img src="../asset/localisation.PNG" alt=""></li>
+          <li><img src="../asset/accueil.PNG" alt=""></li>
+        </ul>
+  </section>
+</main>
+   <footer>
+     <p>&copy; 2019 Yve Carelle - Tous droits réservés</p>
+   </footer>
+</body>
+</html>
