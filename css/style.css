@@ -192,6 +192,7 @@ footer p{
 /* main */
 main{
     margin-top: 20px;
+    max-width: 800px;
 }
 main .form{
     margin-top: 20px;
@@ -419,7 +420,7 @@ main .exp1 p{
     padding: 5px;
     text-align: justify; 
 }  
-.parking .park{
+.parking .bookmark{
     border: 1px #c0c0c0 solid;
     display: inline-block;
     flex-flow: column;
@@ -429,14 +430,19 @@ main .exp1 p{
     margin-bottom: 10px;
     margin-top: 10px;
 }  
-.park img{
+.bookmark img{
     max-width: 600px;
     max-height: 200px;
 }
-.park figcaption {
+.bookmark figcaption {
     background-color: rgb(46, 37, 37);
    color: #fff;
    font: italic smaller sans-serif;
    padding: 3px;
    text-align: center;
- }
+}
+
+.sommaire ol{
+    line-height: 1.5rem;
+    margin-top: 10px;
+}
